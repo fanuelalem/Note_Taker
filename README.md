@@ -1,4 +1,4 @@
-# quiz game
+# express note taker
 
 Node JS Express Note Taker
 
