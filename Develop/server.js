@@ -6,7 +6,10 @@ const htmlRoutes = require("./routes/htmlRoutes");
 
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+let PORT = process.env.PORT 
+if(PORT == null || PORT == ""){
+    PORT = 5000
+}
 
 
 app.use(express.json());
@@ -19,5 +22,5 @@ app.use("/api", apiRoutes);
 app.use("/", htmlRoutes);
 
 
-
+ 
 app.listen(PORT, () => console.log(`Listening on PORT: ${PORT}`));
