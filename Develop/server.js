@@ -6,10 +6,13 @@ const htmlRoutes = require("./routes/htmlRoutes");
 
 
 const app = express();
-let PORT = process.env.PORT 
-if(PORT == null || PORT == ""){
-    PORT = 5000
-}
+const PORT = process.env.PORT || 5000;
+// let port = process.env.PORT;
+// if (port == null || port == "") {
+//   port = 8000;
+// }
+// app.listen(port);
+
 
 
 app.use(express.json());
@@ -22,5 +25,5 @@ app.use("/api", apiRoutes);
 app.use("/", htmlRoutes);
 
 
- 
+
 app.listen(PORT, () => console.log(`Listening on PORT: ${PORT}`));
