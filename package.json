@@ -2,7 +2,7 @@
   "name": "note-taker",
   "version": "1.0.0",
   "description": "Node JS Express Note Taker",
-  "homepage": "https://github.com/fanuelalem/Note_Taker#readme",
+  "homepage": "https://new-app510.herokuapp.com/",
   "engines": {
     "node": "12.16.1"
   },
