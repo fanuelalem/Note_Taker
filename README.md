@@ -12,4 +12,4 @@ Building this application was a neat experience. Being able to see the completed
 
  
 
-![readme screenshot](./assets/images/noteTaker.png)
+![readme screenshot](./assets/Images/noteTaker.png)
